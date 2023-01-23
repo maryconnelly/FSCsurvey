@@ -1,0 +1,101 @@
+body {
+    font-family: league gothic;
+    background-image: url(https://images.fineartamerica.com/images-medium-large-5/pile-of-wood-logs-background-michal-bednarek.jpg);
+      
+    }
+    
+    h1 {
+      font-family: league gothic;
+      font-size: 100px;
+      margin: .5em;
+      text-align: center;
+      color: white;
+      text-shadow: 8px 8px 16px black;
+      letter-spacing: .2rem;
+    }
+    
+    #description {
+      font-family: league gothic;
+      font-size: 40px;
+      margin: .5em;
+      text-align: center;
+      color: white;
+      text-shadow: 8px 8px 16px black;
+      font-style: italic;
+      letter-spacing: .1rem;
+      margin-top: -30px;
+    
+    }
+    div {
+      margin: auto;
+      background-color: #9cAE80;
+      color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 600px;
+    }
+    
+    p {
+      font-family: league gothic;
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      text-align: left;
+      text-shadow: 2px 2px 4px gray;
+    }
+    
+    label {
+    padding: 5;
+    width: 100%;
+    font-family: league gothic;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    }
+    
+    input {
+      border-radius: 10;
+      font-family: league gothic;
+      font-size: 20px;
+      font-style: italic;
+      border-color: gray;
+      
+    }
+    
+    select {
+      display: block;
+      width: 100%;
+      height: 30px;
+      border-radius: 10;
+      font-family: league gothic;
+      font-size: 20px;
+      font-style: italic;
+      color: gray;
+      border-color: black;
+      margin-top: -50px;
+    
+    }
+    
+    #name, #email, #number {
+      width: 100%;
+      height: 30px;
+    
+    }
+    
+    textarea {
+      height: 100px;
+      width: 100%;
+      border-color: black;
+    }
+    
+    button {
+      width: 100%;
+      height: 30px;
+      font-family: league gothic;
+      font-size: 20px;
+    background-color: #41393E;
+      border-color: gray;
+      color: white;
+    }
+    
+  

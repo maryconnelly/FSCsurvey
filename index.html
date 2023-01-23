@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id="title" >Fontenelle Supply Co. </h1>
+
+  <p id="description">Let us know what you think.</p>
+
+  <div id="section-1">
+
+    <form id="survey-form">
+
+        <label id="name-label">Name</label>
+       <input required id="name" type="text" placeholder="Enter your name" ></input>
+
+   <br></br>
+
+        <label id="email-label">Email</label>
+        <input required id="email" type="email" placeholder="Enter your email" ></input>
+
+<br></br>
+ 
+    <label id="number-label">Age</label>
+    <input id="number" name="age" type="number" min="10" max= "100" placeholder="Enter your age" ></input>
+
+<br></br>
+
+<p>How did you hear about us?</p>
+      <label id="dropdown-label"></label>
+    <select id="dropdown" required >
+    <option disabled selected value>Select</option>
+    <option value="instagram">Instagram</option>
+    <option value="facebook">Facebook</option>
+    <option value="word">Word of mouth</option>
+    <option value="other">Other</option>
+  </select>
+
+<p> What sort of merch are you interested in (check all that apply)?</p>
+
+  <input type="checkbox" value="apparel"><label>Apparel</label></input>
+
+  <br></br>
+
+   <input type="checkbox" id="accessories" name="accessories" value="accessories">
+   </input>
+  <label for="accessories">Accessories</label>
+  
+  <br></br>
+
+  <input type="checkbox" value="camp"></input>
+  <label for="camp">Camp & Home</label>
+
+  <br></br>
+
+  <input type="checkbox" value="leather"><label>Leather Goods</label></input>
+
+<p>Would you recommend us to others?</p>
+
+<input type="radio" name="refer" value="definitely" checked ><label>Definitely</label></input>
+
+<input type="radio" name="refer" value="maybe"><label>Maybe</label></input>
+
+<input type="radio" name="refer" value="No"><label >No</label></input>
+  
+
+  <p>Any comments or suggestions?</p>
+  <textarea></textarea>
+
+<br></br>
+<button id="submit" type="submit">Submit</input>
+
+  </div>
+  </form>
+</body>
+</html>
